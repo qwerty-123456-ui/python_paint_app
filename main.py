@@ -68,7 +68,7 @@ class PaintApp:
 # -----------draw oval-----------------------------------------
         def oval_draw(self,event=None):
                 if None not in (self.x1_line_pt,self.y1_line_pt,self.x2_line_pt,self.y2_line_pt):
-                        event.widget.create_oval(self.x1_line_pt,self.y1_line_pt,self.x2_line_pt,self.y2_line_pt,smooth=TRUE,fill='light blue',outline='blue',width=2)
+                        event.widget.create_oval(self.x1_line_pt,self.y1_line_pt,self.x2_line_pt,self.y2_line_pt,fill='light blue',outline='blue',width=2)
 
 # -----------draw rectangle---------------------------------------
 
